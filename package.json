@@ -1,0 +1,25 @@
+{
+  "name": "ecfp-tools",
+  "version": "1.0.0",
+  "description": "A small toolbox for working with ECFP.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "ecfp",
+    "minhash",
+    "lsh",
+    "toolbox"
+  ],
+  "author": "Daniel Probst (Reymond Research Group, University of Bern)",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5"
+  },
+  "dependencies": {
+    "random-js": "^1.0.8"
+  }
+}
